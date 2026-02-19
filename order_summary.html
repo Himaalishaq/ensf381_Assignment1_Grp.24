@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8">
-    <title>Sweet Scoop Ice Cream</title>
-    <link rel = "stylesheet" href = "style.css">
+    <title>Sweet Scoop Ice Cream - Order Summary</title>
+    <link rel = "stylesheet" href = "styles.css">
 </head>
 
 <body>
     <header class = "header">
-        <div class = "ice_cream_logo">
-            <img src = "images/logo.png" alt = "Ice Cream Logo" width = "60">
-            <h1>Sweet Scoop Ice Cream</h1>
-        </div>
+        <img src = "logo.jpeg" alt = "Sweet Scoop Ice Cream Logo" width = "50" height = "50">
+        <h1>Sweet Scoop Ice Cream</h1>
     </header>
 
 <div class ="navbar">
     <a href = "index.html">Home</a>
-    <a href = "login.html">Login</a>
-    <a href = "menu_vew.html">Menu</a>
-    <a href = "customize_order.html">Customize Order</a>
-    <a href = "order_summary.html">Order Summary</a>
+    <span>|</span>
+    <a href = "menu_view.html">Menu</a>
 </div>
 
-
-<main class="main-container">
-
-
-<!--   WRITE CODE HERE-->
-
-
-
-</main>
-   
-
-
+<main class="summary-container">
+    <h2>Order Summary</h2>
+    
+    <table class="order-table">
+            <tr>
+                <td>Flavor</td>
+                <td>Vanilla Dream</td>
+            </tr>
+            <tr>
+                <td>Type</td>
+                <td>Cone</td>
+            </tr>
+            <tr>
+                <td>Toppings</td>
+                <td>Sprinkles, Nuts</td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td>$6.50</td>
+            </tr>
+        </table>
+        <br>
+        <div>
+            <a href = "customize_order.html" class = "edit-order-btn">Edit Order</a>
+            <br><br>
+            <button type="button" class="confirm-order-btn">Confirm Order</button>
+        </div>
+    </main>
 
 <footer class = "footer">
     <p>&copy; 2026 Sweet Scoop Ice Cream. All rights reserved.</p>
 </footer>
 
-
-
-
-
 </body>
-
-
 </html>
