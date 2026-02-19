@@ -10,7 +10,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fdf6ee;
+    background-color: #ffffff;
     color: #4a2c00;
 }
 
@@ -87,7 +87,12 @@ body {
     margin-bottom: 40px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 700px;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.featured-box {
+    max-width: 250px;
 }
 
 .section-box h2 {
