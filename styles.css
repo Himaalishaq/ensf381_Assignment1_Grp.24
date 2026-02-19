@@ -130,15 +130,6 @@ body {
 
 /* --MENU VIEW PAGE (menu_view.html)-- */
 
-.main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
 .season-select-container {
     text-align: center;
     margin: 20px 0 10px 0;
@@ -191,17 +182,122 @@ select {
     text-align: center;
 }
 
+.tile img {
+    width: 150px;
+    height: 120px;
+    margin-bottom: 8px;
+}
 
+.tile h3 {
+    font-size: 1rem;
+    color: #4a2c00;
+    margin-bottom: 4px;
+}
 
+.tile p {
+    font-size: 0.82rem;
+    color: #6b3a00;
+    margin-bottom: 4px;
+    line-height: 1.4;
+}
 
+.tile .category {
+    font-style: italic;
+    font-size: 0.8rem;
+    color: #a07040;
+    margin-bottom: 6px;
+}
 
+.customize-link {
+    display: inline-block;
+    background-color: #f28c8c;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 8px 14px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-top: 8px;
+}
 
+.customize-link:hover {
+    background-color: #e07070;
+}
 
+/* Seasonal items */
 
+.seasonal-tile {
+    background-color: #fff0e0;
+    border: 1px solid #f0d0a0;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    text-align: center;
+}   
 
+.seasonal-tile img {
+    width: 150px;
+    height: 120px;
+    margin-bottom: 8px;
+}
+
+.seasonal-tile h3 {
+    font-size: 0.95rem;
+    color: #4a2c00;
+    margin-bottom: 4px;
+}
+
+.seasonal-tile p {
+    font-size: 0.85rem;
+    color: #6b3a00;
+    margin-bottom: 8px;
+}
+
+.btn-add {
+    background-color: #f28c8c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin: 3px;
+}
+
+.btn-add:hover {
+    background-color: #e07070;
+}
+
+.btn-remove {
+    background-color: #c94c4c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin: 3px;
+}
+
+.btn-remove:hover {
+    background-color: #b03a3a;
+}
 
 /* --CUSTOMIZE ORDER PAGE (customize_order.html)-- */
 /* -customize order specific classes- */
+
+
+
+
+
+
+
 
 
 
@@ -220,11 +316,6 @@ select {
     margin: 0 auto;
     text-align: center;
 }
-.summary-container h2 {
-    color: #4a2c00;
-    margin-bottom: 20px;
-    font-size: 1.3rem;
-}   
 
 .order-table {
     border-collapse: collapse;
@@ -240,11 +331,6 @@ select {
     color: #4a2c00;
 }
 
-.order-table th {
-    background-color: #f28c8c;
-    font-weight: bold;
-}   
-
 .edit-order-btn, .confirm-order-btn {
     background-color: #f28c8c;
     color: white;
@@ -259,7 +345,7 @@ select {
     display: inline-block;
 }
 
-.edit-order-btn:hover, .confirm-order-btn:hover {
+.edit-order-btn:hover,
+.confirm-order-btn:hover {
     background-color: #e07070;
-    cursor: pointer;
 }
