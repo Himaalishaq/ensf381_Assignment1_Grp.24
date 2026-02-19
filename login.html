@@ -22,12 +22,27 @@
 
 <main class="main-container">
 
-    <h2> Welcome to the Login Page for Sweet Scoop Ice Cream!</h2>
-    <form>
-        <textarea name="username"
+    <form class = "login-form" action="menu_view.html"></form>
+        <h2>Welcome to the Login Page for Sweet Scoop Ice Cream!</h2>
+        <br>
+ 
+        
+        <label for="username">Username:</label>
+        <br>
+        <input type="text" id="username" name="username" required>
+        <br><br>
 
 
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" id="password" name="password" required>
+        <br><br>
 
+
+        <input type="checkbox" id ="forgot-password" name = forgot-password>
+        <label for="forgot-password">Forgot Password</label>
+
+        <button type="submit">Login </button>
 
     </form>
 
