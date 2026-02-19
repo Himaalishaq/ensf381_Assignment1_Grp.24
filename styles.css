@@ -74,6 +74,7 @@ body {
     padding: 20px;
     max-width: 1100px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* Homepage sections */
@@ -139,8 +140,15 @@ body {
     font-weight: bold;
     padding: 8px 14px;
     cursor: pointer;
+    border: none;
 }
 
+.forgot-password-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
 /* --MENU VIEW PAGE (menu_view.html)-- */
 
@@ -306,16 +314,40 @@ select {
 /* --CUSTOMIZE ORDER PAGE (customize_order.html)-- */
 /* -customize order specific classes- */
 
+.banner-image {
+    display: block;
+    margin: 20px auto 15px auto;
+    width: 320px;
+    height: auto;
+}
 
+.customize-wrap {
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+}
 
+.submit-selection-button {
+    background-color: #f28c8c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
 
-
-
-
-
-
-
-
+.finish-order-button {
+    background-color: #f28c8c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 20px 30px;
+    cursor: pointer;
+    margin-top: 18px;
+}
 
 
 /* --ORDER SUMMARY PAGE (order_summary.html)-- */

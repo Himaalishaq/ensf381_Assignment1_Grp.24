@@ -10,38 +10,41 @@
 <body>
     <header class = "header">
         <div class = "ice_cream_logo">
-            <img src = "images/logo.png" alt = "Ice Cream Logo" width = "60">
-            <h1>Sweet Scoop Ice Cream</h1>
+            <h1>
+            <img class="logo-image" src="images/logo.jpeg" alt="Ice Cream Logo">
+            Sweet Scoop Ice Cream</h1>
         </div>
     </header>
 
 <div class ="navbar">
-    <a href = "login.html">Login</a>
+    <a href = "index.html">Home</a>
 </div>
 
 
 <main class="main-container">
 
     <form class = "login-form" action="menu_view.html"></form>
-        <h2>Welcome to the Login Page for Sweet Scoop Ice Cream!</h2>
+        <h2>Welcome Back!</h2>
         <br>
  
         
         <label for="username">Username:</label>
-        <br>
+    
         <input type="text" id="username" name="username" required>
         <br><br>
 
 
         <label for="password">Password:</label>
-        <br>
+    
         <input type="password" id="password" name="password" required>
         <br><br>
 
+        
+        <div class="forgot-password-wrapper">
+            <input type="checkbox" id ="forgot-password" name = "forgot-password">
+            <label for="forgot-password">Forgot Password</label>
+        </div>
 
-        <label for="forgot-password">Forgot Password</label>
-        <br>
-        <input type="checkbox" id ="forgot-password" name = "forgot-password">
         <br><br>
 
         <button type="submit" class="login-button">Login </button>
@@ -55,7 +58,7 @@
 
 
 <footer class = "footer">
-    <p>&copy; 2026 Sweet Scoop Ice Cream. All rights reserved.</p>
+    <p>&copy; 2026 Sweet Scoop Ice Cream.</p>
 </footer>
 
 

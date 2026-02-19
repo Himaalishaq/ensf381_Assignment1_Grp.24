@@ -4,71 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <title>Sweet Scoop Ice Cream</title>
-    <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href = "styles.css">
 </head>
 
 <body>
     <header class = "header">
         <div class = "ice_cream_logo">
-            <img src = "images/logo.png" alt = "Ice Cream Logo" width = "60">
-            <h1>Sweet Scoop Ice Cream</h1>
+            <h1>
+            <img class="logo-image" src="images/logo.jpeg" alt="Ice Cream Logo">
+            Sweet Scoop Ice Cream</h1>
         </div>
     </header>
 
 <div class ="navbar">
-    <a href = "index.html">Home</a>
-    <a href = "login.html">Login</a>
+    <a href = "index.html">Home</a> |
     <a href = "menu_vew.html">Menu</a>
-    <a href = "customize_order.html">Customize Order</a>
-    <a href = "order_summary.html">Order Summary</a>
+
 </div>
 
 
 <main class="main-container">
-    <img src="images/banner.jpg" alt="Ice Cream Banner" class="banner-image">
+    <div class="customize-wrap">
+    <img class="banner-image" src="images/Picture2.jpeg" alt="Ice Cream Banner">
 
     <form>
         <section>
             <h2>Vanilla Dream</h2>
-            <p> Select Ice Cream Type:</p>
-            <input type="radio" id="cone" name="type_of_vanilla_ice_cream" value = "Cone">
-            <label for="cone">Cone</label>
+            <br><br>
+            <p> Choose Type</p>
             <br>
             <input type="radio" id="cup" name="type_of_vanilla_ice_cream" value = "Cup">
+            <br>
             <label for="cup">Cup</label>
+            <br>
+            <input type="radio" id="cone" name="type_of_vanilla_ice_cream" value = "Cone">
+            <br>
+            <label for="cone">Cone</label>
             <br><br>
 
-            <button type="button">Submit Selection</button>
+            <button type="button" class = "submit-selection-button">Submit Selection</button>
   
         </section>
         <br><br>
 
         <section>
             <h2>Chocolate Bliss</h2>
-            <p> Select Ice Cream Toppings:</p>
-            <input type="checkbox" id="hot_fudge" name="topping" value = "Hot Fudge">
-            <label for="hot_fudge">Hot Fudge</label>
+            <br><br>
+            <p> Select Toppings</p>
             <br>
-            
-            <input type="checkbox" id="sprinkles" name="toppings" value = "Sprinkles">
+            <input type="checkbox" id="sprinkles" name="topping" value = "Sprinkles">
+            <br>
             <label for="sprinkles">Sprinkles</label>
             <br>
 
 
-            <input type="checkbox" id="crushed_nuts" name="toppings" value = "Crushed Nuts">
-            <label for="crushed_nuts">Crushed Nuts</label>
+            <input type="checkbox" id="nuts" name="toppings" value = "Nuts">
+            <br>
+            <label for="nuts">Nuts</label>
             <br>
 
 
-            <input type="checkbox" id="cherries" name="toppings" value = "Cherries">
-            <label for="cherries">Cherries</label>
+            <input type="checkbox" id="caramel" name="toppings" value = "Caramel">
+            <br>
+            <label for="caramel">Caramel</label>
             <br><br>
-            <button type="button">Submit Selection</button>
+            <button type="button" class = "submit-selection-button">Submit Selection</button>
+  
+            <br><br>
 
 
 
-
-            <button type="submit">Finish Order</button>
+            <button type="submit" class= "finish-order-button">Finish Order</button>
         </section>
         <br><br>
 
@@ -76,7 +82,7 @@
     
     </form>
 
-
+    </div>
 
 </main>
    
@@ -84,7 +90,7 @@
 
 
 <footer class = "footer">
-    <p>&copy; 2026 Sweet Scoop Ice Cream. All rights reserved.</p>
+    <p>&copy; 2026 Sweet Scoop Ice Cream</p>
 </footer>
 
 
