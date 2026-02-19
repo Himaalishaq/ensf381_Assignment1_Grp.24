@@ -187,9 +187,22 @@ select {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 900px;
-    text-align: center;
-    font-size: 0;
 }
+
+.menu-section:first-of-type {
+    text-align: left;
+}
+
+
+.menu-section:first-of-type h2 {
+    text-align: center;
+}
+
+
+.menu-section:last-of-type {
+    text-align: center;
+}
+
 .menu-section h2 {
     text-align: center;
     margin-bottom: 20px;
