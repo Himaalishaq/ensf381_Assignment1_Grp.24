@@ -74,6 +74,8 @@ body {
     padding: 20px;
     max-width: 1100px;
     margin: 0 auto;
+    text-align: center;
+
 }
 
 /* Homepage sections */
@@ -124,8 +126,8 @@ body {
     padding: 15px;
     border-top: 2px solid #e4b48c;
     color: #6b3a00;
-    font-size: 0.9rem;
-    margin-top: 20px;
+    font-size: 0.7rem;
+    margin-top: 30px;
 }
 
 /* --LOGIN PAGE (Login.html)-- */
@@ -136,7 +138,9 @@ body {
 
 .login-form input {
     background-color: #fff8ee;
+    border: 1px solid #e4b48c;
 }
+
 
 .login-button {
     background-color: #f28c8c;
@@ -154,6 +158,12 @@ body {
     align-items: center;
     gap: 10px;
 }
+
+.forgot-password-wrapper input {
+    background-color: transparent;
+    border: none;
+}
+
 
 /* --MENU VIEW PAGE (menu_view.html)-- */
 
@@ -219,7 +229,7 @@ select {
     box-shadow: 0 3px 8px rgba(0,0,0,0.1);
     display: inline-block;
     vertical-align: top;
-    width: 220px;
+    width: 250px;
     text-align: center;
     font-size: 16px;
 }
@@ -269,7 +279,7 @@ select {
 /* Seasonal items */
 
 .seasonal-tile {
-    background-color: #fff0e0;
+    background-color: #ffffff;
     border: 1px solid #f0d0a0;
     border-radius: 20px;
     padding: 15px;
@@ -384,39 +394,18 @@ select {
     text-align: center;
 }
 
-.summary-container h2 {
-    margin: 30px 0 20px 0;
-    font-size: 1.6rem;
-    font-weight: bold;
-}
-
 .order-table {
     border-collapse: collapse;
     background-color: #fff8ee;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     text-align: left;
-}
-
-.order-actions {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 18px;
 }
 
 .order-table th, .order-table td {
     border: 1px solid black;
-    padding: 10px 18px;
+    padding: 10px 15px;     
     font-size: 0.95rem;
     color: #4a2c00;
-    background-color: #fff8ee;   
-    font-weight: normal;         
-}
-
-
-.order-table th {
-    font-weight: bold;
 }
 
 .edit-order-btn, .confirm-order-btn {
@@ -425,20 +414,12 @@ select {
     font-weight: bold;
     border: none;
     border-radius: 12px;
+    padding: 8px 14px;
     cursor: pointer;
     font-size: 0.93rem;
+    margin: 5px;
     text-decoration: none;
     display: inline-block;
-}
-
-
-.edit-order-btn {
-    padding: 20px 30px;
-}
-
-
-.confirm-order-btn {
-    padding: 8px 18px;
 }
 
 .edit-order-btn:hover,
