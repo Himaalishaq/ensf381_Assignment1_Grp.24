@@ -136,7 +136,7 @@ main {
 .footer {
     background-color: #f9e2c8;
     text-align: center;
-    padding: 25px 0;
+    padding: 15px;
     border-top: 2px solid #e4b48c;
     color: #6b3a00;
     font-size: 0.7rem;
@@ -433,6 +433,7 @@ select {
     background-color: #fff8ee;
     margin: 0 auto 20px auto;
     text-align: left;
+    border: 1px solid black;
 }
 
 .order-table th, .order-table td {
