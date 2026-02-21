@@ -12,6 +12,14 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     color: #4a2c00;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 /* --header-- */
