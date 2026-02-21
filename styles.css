@@ -417,8 +417,8 @@ select {
     border-radius: 12px;
     padding: 8px 14px;
     cursor: pointer;
-    font-size: 0.93rem;
-    margin: 5px;
+    font-size: 1rem;
+    margin: 10px 0;
     text-decoration: none;
     display: inline-block;
 }
@@ -426,4 +426,5 @@ select {
 .edit-order-btn:hover,
 .confirm-order-btn:hover {
     background-color: #e07070;
+
 }
