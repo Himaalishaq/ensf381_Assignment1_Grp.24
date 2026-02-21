@@ -429,6 +429,10 @@ select {
     text-align: center;
 }
 
+.summary-container h2 {
+    margin: 20px 0 25px 0;
+}
+
 .order-table {
     border-collapse: collapse;
     background-color: #fff8ee;
